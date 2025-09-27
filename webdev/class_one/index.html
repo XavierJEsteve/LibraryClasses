@@ -1,0 +1,74 @@
+<!-- The <!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly. It must only appear once, at the top of the page (before any HTML tags). -->
+<!DOCTYPE html>
+<html>
+		<head>
+		
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<title> The Library Lookouts Home Page </title>
+				<link rel="stylesheet" href="style/style.css">
+		</head>
+		<body>
+				<!-- <div> is a "divider"-->
+				<a href="./index2.html">See a different version of this page</a>
+				<div class="container">
+						<div class="header">
+						    <p class="identifier"> container.header </p>
+								<!-- For banner image and title header-->
+								<!-- img and h(1-6) are for images and headers of varying sizes-->
+								<img src="public/lookouts.png" alt="Library Lookouts Staff">
+								<h1> The Library Lookout</h1>
+						</div>
+						
+						<div class="menu">
+						    <p class="identifier"> container.menu </p>
+								<h2> Menu </h2>
+								<li> Home </li>
+								<li> Articles </li>
+								<li> Contributors </li>
+								<li> About  </li>
+						</div>
+	
+						<div class="content">
+						    <p class="identifier">
+						    container.content
+						    </p>
+								<article>
+									<h2> Announcements </h2>
+									<!-- p is for "paragraph"-->
+								  <p> The library lookout is looking for savy journalists that make their own pages!<p>
+								  <p> See requirements below and submit your information for future contact.</p>
+								  <!-- UL stands for "unordered list"-->
+									<ul>
+										<!-- li stands for "list item" -->
+										<li> Basic computer skills. </li>
+										<li> Available Monday through Friday with flexible hours. </li>
+										<li> HTML and CSS editing. Javascript is a plus! </li>
+										<li> Based in Broward or Miami-Dade </li>
+										<li> Speakers of languages other than English are welcome! </li>
+									</ul>
+									<form>
+									  <label for="fname">Full Name:</label><br>
+									  <input type="text" id="fname" name="fname"><br>
+									  <label for="email">Email address:</label><br>
+									  <input type="text" id="email" name="email"><br>
+									  <input type="submit" value="Submit">
+									</form>
+								  
+								</article>
+								<article >
+								  <h2> Using the Dewey Decimal System </h2>
+								  <div style="display:flex;">
+								    <p style="width:512px;"> The Dewey Decimal System allows libraries to standardize its shelves and give readers a systematic way to find resources. More information on its history can be found <a href="https://en.wikipedia.org/wiki/Dewey_Decimal_Classification">here</a>.</p>
+								    <img style="inline" src="public/dewey.png" alt="Dewey Decimal System" width=256px height=256px>
+								  </div>
+								  
+								</article>
+						</div>
+
+						<div class="footer">
+						    <p class="identifier"> container.footer <p>
+								<p> Library Lookouts 2025 </p>
+						</div>
+				</div>		
+		</body>
+</html>
